@@ -7,7 +7,7 @@ export default function About({ params }) {
     <div className={styles.aboutContainer}>
       <h2 className={styles.aboutTitle}>About Us</h2>
       <Image
-        src="/images/books.png"
+        src="/images/booka.png"
         alt="The Books Hub"
         width={300}
         height={200}
