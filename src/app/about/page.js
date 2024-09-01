@@ -9,8 +9,8 @@ export default function About({ params }) {
       <Image
         src="/images/books.png"
         alt="The Books Hub"
-        width={500}
-        height={300}
+        width={300}
+        height={200}
         className={styles.aboutImage}
       />
       <p className={styles.aboutText}>

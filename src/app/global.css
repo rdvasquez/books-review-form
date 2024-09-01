@@ -5,7 +5,7 @@ body {
 }
 
 .background {
-  background-image: url("/images/book.webp");
+  background-image: url("/images/bookrev.png");
   background-size: cover;
   background-position: center;
   background-origin: padding-box;
@@ -30,20 +30,21 @@ body {
   color: #60a5fa; /* Light blue hover color */
 }
 
-/* .main-container {
+.books-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-} */
+}
 
-/* .books-container h2 {
-  margin-top: 20px;
-  background-image: url("/images/books.webp");
+.books-container h2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
   font-size: 24px;
   color: #333;
   text-align: center;
   margin-bottom: 20px;
-} */
+}
 
 .review-form {
   background-image: url("/images/books-form.png");
