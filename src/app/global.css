@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif; /* Assuming 'Inter' font is imported */
+  color: #333; /* Main text color */
+}
+
+.background {
+  background-image: url("/images/book.webp");
+  background-size: cover;
+  background-position: center;
+  background-origin: padding-box;
+  background-origin: content-box;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+#nav {
+  margin-top: 15px;
+}
+
+#nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+#nav a:hover {
+  color: #60a5fa; /* Light blue hover color */
+}
+
+/* .main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+/* .books-container h2 {
+  margin-top: 20px;
+  background-image: url("/images/books.webp");
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+} */
+
+.review-form {
+  background-image: url("/images/books-form.png");
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.review-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.review-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.review-form input {
+  margin: auto;
+  display: block;
+  width: 90%;
+  padding: 12px;
+  background-color: #f5deb3db;
+  color: grey;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.review-form button {
+  margin: 13px;
+  width: 95%;
+  padding: 12px;
+  background-color: whitesmoke;
+  color: grey;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.review-form button:hover {
+  background-color: rgb(173, 196, 230);
+  opacity: 0.8;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  body {
+    background-color: lightblue;
+  }
+}
