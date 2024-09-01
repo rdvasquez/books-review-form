@@ -66,7 +66,7 @@ function AddReview({ book_id }) {
 
         <label for="rating">Rating</label>
         <input name="rating" />
-        <button>Submit</button>
+        <button>Send</button>
       </form>
     </div>
   );
